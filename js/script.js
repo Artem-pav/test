@@ -29,4 +29,16 @@ const logger = function() {
 };
 logger();
 
-const calcS = (a,b) => a + b;
+const calcS = (a,b) => a + b;  
+ 
+const options = {
+    name: 'test',
+    width: 1024,
+    height: 1024,
+    colors: {
+        boder: 'black',
+        bg: 'red',
+
+    }
+};
+console.log(Object.keys(options).length);
